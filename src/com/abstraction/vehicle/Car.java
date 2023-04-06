@@ -1,5 +1,6 @@
-class Car implements Vehicle {
+package com.abstraction.vehicle;
 
+public class Car implements Vehicle {
   @Override
   public void start() {
     System.out.println("car started !! ");
@@ -15,3 +16,4 @@ class Car implements Vehicle {
     System.out.println("car stopped !!");
   }
 }
+
