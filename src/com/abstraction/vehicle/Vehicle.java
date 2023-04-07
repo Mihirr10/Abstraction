@@ -1,6 +1,6 @@
 package com.abstraction.vehicle;
 
-public interface Vehicle {
+interface Vehicle {
   void start();
 
   void changeGear();
